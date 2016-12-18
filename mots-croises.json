@@ -1,0 +1,105 @@
+{"data":
+  [
+    {
+      "row": 12,
+      "column": 8,
+      "block":
+      [
+        {"r": 3, "c": 6},
+        {"r": 4, "c": 7},
+        {"r": 5, "c": 5},
+        {"r": 6, "c": 4},
+        {"r": 7, "c": 3},
+        {"r": 8, "c": 7},
+        {"r": 9, "c": 2},
+        {"r": 9, "c": 6},
+        {"r": 10, "c": 4},
+        {"r": 11, "c": 5},
+        {"r": 12, "c": 3}
+      ],
+      "horizontalement":
+      [
+        [
+          {"indication": "Rendre un service à un ami.", "response": "DEPANNER"}
+        ],
+        [
+          {"indication": "Qui n'est pas encore entièrement vendu.", "response": ""}
+        ],
+        [
+          {"indication": "Cuire des beignets.", "response": "FRIRE"},
+          {"indication": "Travaux en cours.", "response": "TP"}
+        ],
+        [
+          {"indication": "Flétries", "response": "FANEES"}
+        ],
+        [
+          {"indication": "Balles qui tracent.", "response": "ACES"},
+          {"indication": "Ecrivain italien.", "response": "ECO"}
+        ],
+        [
+          {"indication": "Inspira Ronsard.", "response": "MIE"},
+          {"indication": "Villa urbaine au Maroc", "response": "RIAD"}
+        ],
+        [
+          {"indication": "Berge.", "response": "AN"},
+          {"indication": "Qui a un gros ventre", "response": "PANSU"}
+        ],
+        [
+          {"indication": "Vraiment adhérent.", "response": "TENACE"}
+        ],
+        [
+          {"indication": "Un homme d'oreilles.", "response": "ORL"},
+          {"indication": "Symbole du platine", "response": "PT"}
+        ],
+        [
+          {"indication": "Imagerie médicale.", "response": "IRM"},
+          {"indication": "Hauban sur un bateau.", "response": "ETAI"}
+        ],
+        [
+          {"indication": "Course effrénée.", "response": "RUSH"},
+          {"indication": "Ville des Cariocas.", "response": "RIO"}
+        ],
+        [
+          {"indication": "Héros de Spielberg.", "response": "ET"},
+          {"indication": "Corse, par exemple", "response": "ILIEN"}
+        ],
+      ],
+      "verticalement":
+      [
+        [
+          {"indication": "Qui porte atteinte à l'honneur.", "response": "DIFFAMATOIRE"}
+        ],
+        [
+          {"indication": "Fixé au sol.", "response": "ENRACINE"},
+          {"indication": "Période de chaleurs animales.", "response": "RUT"}
+        ],
+        [
+          {"indication": "Rendue triste", "response": "PEINEE"},
+          {"indication": "Sont donnés pour dénoncer.", "response": "NOMS"}
+        ],
+        [
+          {"indication": "Difficiles à avaler.", "response": "APRES"},
+          {"indication": "Un repère pour le golfeur.", "response": "PAR"},
+          {"indication": "Sort de la bouche du rieur.", "response": "HI"}
+        ],
+        [
+          {"indication": "Multitude ailée.", "response": "NUEE"},
+          {"indication": "Gratte pour nettoyer.", "response": "RACLE"}
+        ],
+        [
+          {"indication": "Conjonction toujours doublée.", "response": "NI"},
+          {"indication": "Ses quais traversent Paris.", "response": "SEINE"},
+          {"indication": "C'est le moment de respecter l'ordre.", "response": "TRI"}
+        ],
+        [
+          {"indication": "Il rougit à l'aurore.", "response": "EST"},
+          {"indication": "Situation, circonstance.", "response": "CAS"},
+          {"indication": "Contrepartie du travail.", "response": "PAIE"}
+        ],
+        [
+          {"indication": "Multiplication des générations.", "response": "REPRODUCTION"}
+        ]
+      ]
+    }
+  ]
+}
