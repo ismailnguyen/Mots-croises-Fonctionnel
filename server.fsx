@@ -7,7 +7,8 @@ open System.IO
 
  // Let's see https://msdn.microsoft.com/en-us/library/system.net.httplistenerrequest(v=vs.110).aspx
 
-let siteRoot = @"C:\Users\MonCompte\Desktop\Mots-croises-Fonctionnel\"
+// let siteRoot = @"C:\Users\MonCompte\Desktop\Mots-croises-Fonctionnel\"
+let siteRoot = @"X:\gitlab.flegeau\Mots-croises-Fonctionnel"
 let host = "http://localhost:9000/"
  
 let listener (handler:(HttpListenerRequest->HttpListenerResponse->Async<unit>)) =
@@ -33,7 +34,8 @@ let output (req:HttpListenerRequest) =
 listener (fun req resp ->
     async {
         let txt = Encoding.ASCII.GetBytes(output req)
-        resp.ContentType <- "text/html"
+        resp.AppendHeader("Access-Control-Allow-Origin", "*");
+        resp.ContentType <- "application/json"
         resp.OutputStream.Write(txt, 0, txt.Length)
         resp.OutputStream.Close()
     })
