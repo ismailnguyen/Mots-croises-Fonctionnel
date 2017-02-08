@@ -17,9 +17,13 @@
   <script src="jquery.min.js"></script>
   <script>
 	// Contact back from here
-	$.getJSON('localhost:9000/mots-croises.json', function(data) {
-    alert(data);
-});
+  let jqxhr = $.get('http://localhost:9000/mots-croises.json')
+	  .always(function(data) {
+		console.log(data.responseText);
+		var json = data.responseText;
+		let jsonObject = jQuery.parseJSON(json);
+		console.log(jsonObject);
+	  });
   </script>
 </head>
 
